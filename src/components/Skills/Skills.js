@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import skillsObject from './skillsobject'
+// import skillsObject from './skillsobject'
 
 
 
