@@ -5,6 +5,10 @@ import AstroBearLogoInverse from './AstroBearLogoInverse.png'
 
 export default function AboutMe() {
 
+    const AboutMeWrapper = styled.wrapper`
+    justify-content: center; 
+    `
+
     const AboutMeHeader = styled.h1`
     text-align: center;
     padding: 50px; 
@@ -29,10 +33,10 @@ export default function AboutMe() {
   width: 250px; `
 
     return (
-        <div>
+        <AboutMeWrapper>
             <AboutMeHeader>- ABOUT ME - </AboutMeHeader>
             <AboutMeInfo src={AstroBearLogoInverse} />
             <AboutMeParagraph>I am a Full Stack Web Developer with a certificate of completion from the UC San Diego Bootcamp Extension Course.  I specialize in the creation of dynamic websites that emphasize ease of use and timely responsiveness</AboutMeParagraph>
-        </div>
+        </AboutMeWrapper>
     )
 }
