@@ -1,17 +1,24 @@
 
 import React from 'react';
+import styled from 'styled-components'
 import skillsObject from './skillsobject'
 
 export default function Skills() {
 
+    const SkillsTitle = styled.h1`
+    text-align:center; 
+    `
+
+
     return (
         <div>
-            <h1> Skills </h1>
-            <ul>
+            <SkillsTitle> -SKILLS- </SkillsTitle>
             {skillsObject.map(properties => (
-          <li>{properties.title}</li>
-        ))}
-          </ul>
+                <img key={properties.key} src={properties.image} />
+                
+            ))}
+     
+
         </div>
     )
 }

@@ -8,26 +8,32 @@ import Otherimage from './Images/Otherimage.png'
 const skillsObject = 
  [
         {
+            key: 1,
             title: "HTML",
             image: HTMLimage,
         },
         {
+            key: 2,
             title: "CSS",
             image: CSSimage,
         },
         {
+            key: 3,
             title: "Javascript",
             image: JSimage,
         },
         {
+            key: 4, 
             title: "Node",
             image: Nodeimage,
         },
-        {
+        {   
+            key: 5, 
             title: "Database Technology",
             image: Databaseimage,
         },
         {
+            key: 6, 
             title: "Other",
             image: Otherimage,
         },
