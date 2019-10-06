@@ -16,11 +16,14 @@ export default function Title() {
   const Title = styled.h1`
   text-align: center;
   color: white; 
+ 
+  
   `
 
   const TitleSub = styled.h2`
   text-align: center;
   color: white; 
+  
   `
     return (
     
