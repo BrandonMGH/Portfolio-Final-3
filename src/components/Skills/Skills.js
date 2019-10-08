@@ -9,10 +9,15 @@ export default function Skills() {
     text-align:center; 
     `
     const SkillsObjContainer = styled.section`
-    display: grid; 
-    justify-content: center; 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 1rem;
+    place-items:center; 
  
      
+    `
+    const SkillsObjectElement = styled.section`
+    display: inline; 
     `
 
 
@@ -21,7 +26,7 @@ export default function Skills() {
             <SkillsTitle> -SKILLS- </SkillsTitle>
             <SkillsObjContainer>
             {skillsObject.map(properties => (
-               <img key={properties.key} src={properties.image} />
+              <img key={properties.key} src={properties.image} />
             ))}
            </SkillsObjContainer>
 
