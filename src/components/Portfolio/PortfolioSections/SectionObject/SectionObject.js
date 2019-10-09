@@ -49,6 +49,40 @@ All: [
         projectButtonLink: "*",
         githubButtonLink: "*",
         color: "blue"
+    },
+    {
+        keyValue: 1,
+        projectTitle: "Psychic Game",
+        projectImg: PsyButImg,
+        projectDescription:"A Psychic Game where a user attempts to guess a hidden letter.  The user has a limited number of chances to guess the letter.  If they guess it before their guesses run out, they win, otherwise, they lose.",
+        projectType: "Solo Project",
+        projectResponsibility: "Built the project in its entirety",
+        projectButtonLink: "*",
+        githubButtonLink: "*",
+        color: "red"
+
+    },
+    {
+        keyValue: 2,
+        projectTitle: "Psychic Game",
+        projectImg: Link,
+        projectDescription:"A Psychic Game where a user attempts to guess a hidden letter.  The user has a limited number of chances to guess the letter.  If they guess it before their guesses run out, they win, otherwise, they lose.",
+        projectType: "Solo Project",
+        projectResponsibility: "Built the project in its entirety",
+        projectButtonLink: "*",
+        githubButtonLink: "*",
+        color: "green"
+    },
+    {
+        keyValue: 3,
+        projectTitle: "Psychic Game",
+        projectImg: MontyPythonHolyGrail,
+        projectDescription:"A Psychic Game where a user attempts to guess a hidden letter.  The user has a limited number of chances to guess the letter.  If they guess it before their guesses run out, they win, otherwise, they lose.",
+        projectType: "Solo Project",
+        projectResponsibility: "Built the project in its entirety",
+        projectButtonLink: "*",
+        githubButtonLink: "*",
+        color: "blue"
     }
 ]
 
