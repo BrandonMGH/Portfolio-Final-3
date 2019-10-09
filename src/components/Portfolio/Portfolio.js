@@ -3,6 +3,10 @@ import styled from 'styled-components';
 
 export default function Portfolio() {
 
+    const SkillsTitle = styled.h1`
+    text-align:center; 
+    `
+
     const PortfolioWrapper = styled.section`
     display: grid; 
     grid-template-columns: repeat(4, 1fr);
@@ -12,6 +16,10 @@ export default function Portfolio() {
    const PortfolioTile = styled.section`
     border: 3px solid black; 
     width:100px; 
+    height: 100px; 
+    display:flex; 
+    justify-content: center; 
+    align-items: center; 
    `
    const TileJavascript = styled(PortfolioTile)`
    background-color: orange; 
@@ -27,6 +35,8 @@ export default function Portfolio() {
    `
 
     return (
+        <>
+        <SkillsTitle>-PORTFOLIO-</SkillsTitle>
         <PortfolioWrapper>
             <TileJavascript>
                 test
@@ -41,5 +51,6 @@ export default function Portfolio() {
                 test
             </TileAll>
         </PortfolioWrapper>
+        </>
     )
 }
