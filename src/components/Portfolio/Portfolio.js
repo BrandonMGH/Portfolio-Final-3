@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react';
 import styled from 'styled-components';
 
+//**COMPONENTS **//
+import AllSect from './PortfolioSections/AllSect.js'
+import JavascriptSect from './PortfolioSections/JavascriptSect.js'
+import NodeSect from './PortfolioSections/NodeSect.js'
+import ReactSect from './PortfolioSections/ReactSect.js'
+
 export default function Portfolio() {
+
+    const [section, setSection] = useState(<AllSect />);
 
     const SkillsTitle = styled.h1`
     text-align:center; 
@@ -14,9 +22,6 @@ export default function Portfolio() {
     place-items:center; 
   `
 
-  const boxHover = styled.section`
-   opacity: .9; 
-   `
 
    const PortfolioTile = styled.section`
     border: 3px solid black; 
@@ -25,7 +30,7 @@ export default function Portfolio() {
     display:flex; 
     justify-content: center; 
     align-items: center; 
-    opacity: .5;
+    opacity: .7;
     :hover {
         opacity: 1;
         cursor: pointer;
@@ -50,19 +55,22 @@ export default function Portfolio() {
         <>
         <SkillsTitle>-PORTFOLIO-</SkillsTitle>
         <PortfolioWrapper>
-            <TileJavascript>
-                test
-            </TileJavascript>
-            <TileNode>
-                test
+            <TileJavascript onClick={() => setSection(<JavascriptSect />)} >
+                Javascript
+            </TileJavascript >
+            <TileNode onClick={() => setSection(<NodeSect />)}>
+                Node
             </TileNode>
-            <TileReact>
-                test
+            <TileReact onClick={() => setSection(<ReactSect />)}>
+                React
             </TileReact>
-            <TileAll>
-                test
+            <TileAll onClick={() => setSection(<AllSect />)}>
+                All
             </TileAll>
         </PortfolioWrapper>
+        <div>
+            {section}
+        </div>
         </>
     )
 }
