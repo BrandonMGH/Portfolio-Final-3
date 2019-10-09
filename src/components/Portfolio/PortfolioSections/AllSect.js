@@ -11,10 +11,20 @@ export default function AllSect() {
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap: 1rem;
     place-items: center; 
-    text-align: center;  
+    text-align: center; 
+    `
+    const PortfolioTileElement = styled.section`
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    :hover {
+        box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+      }
+    padding: 1em 1em 1em 1em 
     `
 
-    const PortfolioTileTitle = styled.h3`
+    const PortfolioTileImage = styled.section`
     background-image: url(${props => props.imageInput});
     background-size: cover;
     background-position: center;
@@ -22,24 +32,27 @@ export default function AllSect() {
     display:flex;
     justify-content: center; 
     align-items: center; 
-    margin-top: 1em; 
-    color: white; 
+    margin-top: 1em;  
+    border: 3px solid black;
+    margin-bottom: 20px; 
     
     `
+    
 
 
     return (
         <PortfolioTileWrapper>
             {sectionObject.All.map(properties => (
-                <span key={properties.keyValue}>
-                    <PortfolioTileTitle imageInput={properties.projectImg} >{properties.projectTitle}</PortfolioTileTitle>
+                <PortfolioTileElement key={properties.keyValue}>
+                    <PortfolioTileImage imageInput={properties.projectImg} ></PortfolioTileImage>
+                    <h3>{properties.projectTitle}</h3>
                     <p>{properties.projectDescription}</p>
                     <p><b>Project Type:</b> {properties.projectType}</p>
                     <p><b>My Responsibility:</b>{properties.projectResponsibility}</p>
                     <button>Project Link</button>
                     <button>GitHub Link</button>
 
-                </span>
+                </PortfolioTileElement>
 
             ))}
         </PortfolioTileWrapper>

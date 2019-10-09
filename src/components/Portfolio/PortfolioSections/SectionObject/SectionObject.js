@@ -51,7 +51,7 @@ All: [
         color: "blue"
     },
     {
-        keyValue: 1,
+        keyValue: 4,
         projectTitle: "Psychic Game",
         projectImg: PsyButImg,
         projectDescription:"A Psychic Game where a user attempts to guess a hidden letter.  The user has a limited number of chances to guess the letter.  If they guess it before their guesses run out, they win, otherwise, they lose.",
@@ -63,7 +63,7 @@ All: [
 
     },
     {
-        keyValue: 2,
+        keyValue: 5,
         projectTitle: "Psychic Game",
         projectImg: Link,
         projectDescription:"A Psychic Game where a user attempts to guess a hidden letter.  The user has a limited number of chances to guess the letter.  If they guess it before their guesses run out, they win, otherwise, they lose.",
@@ -74,7 +74,7 @@ All: [
         color: "green"
     },
     {
-        keyValue: 3,
+        keyValue: 6,
         projectTitle: "Psychic Game",
         projectImg: MontyPythonHolyGrail,
         projectDescription:"A Psychic Game where a user attempts to guess a hidden letter.  The user has a limited number of chances to guess the letter.  If they guess it before their guesses run out, they win, otherwise, they lose.",
