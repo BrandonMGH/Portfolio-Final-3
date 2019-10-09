@@ -13,6 +13,11 @@ export default function Portfolio() {
     grid-gap: 1rem;
     place-items:center; 
   `
+
+  const boxHover = styled.section`
+   opacity: .9; 
+   `
+
    const PortfolioTile = styled.section`
     border: 3px solid black; 
     width:100px; 
@@ -20,9 +25,15 @@ export default function Portfolio() {
     display:flex; 
     justify-content: center; 
     align-items: center; 
+    opacity: .5;
+    :hover {
+        opacity: 1;
+        cursor: pointer;
+      }
    `
    const TileJavascript = styled(PortfolioTile)`
    background-color: orange; 
+ 
    `
    const TileNode = styled(PortfolioTile)`
    background-color: Green;
@@ -34,6 +45,7 @@ export default function Portfolio() {
    background-color: Red; 
    `
 
+  
     return (
         <>
         <SkillsTitle>-PORTFOLIO-</SkillsTitle>
