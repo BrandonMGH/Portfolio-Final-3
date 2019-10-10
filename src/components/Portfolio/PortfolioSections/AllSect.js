@@ -9,19 +9,19 @@ export default function AllSect() {
     const PortfolioTileWrapper = styled.section`
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: 2rem;
     place-items: center; 
     text-align: center; 
     `
     const PortfolioTileElement = styled.section`
-    border: 1px solid grey;
+  
     border-radius: 10px;
-    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+    box-shadow: 10px 10px 10px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     :hover {
-        box-shadow: 0 20px 20px 0 rgba(0,0,0,0.2);
+        box-shadow: 20px 20px 20px 0 rgba(0,0,0,0.2);
       }
-    padding: 1em 1em 1em 1em 
+    padding: 1em 1em 1em 1em
     `
 
     const PortfolioTileImage = styled.section`
@@ -41,7 +41,10 @@ export default function AllSect() {
 
 
     return (
+      
+    
         <PortfolioTileWrapper>
+             
             {sectionObject.All.map(properties => (
                 <PortfolioTileElement key={properties.keyValue}>
                     <PortfolioTileImage imageInput={properties.projectImg} ></PortfolioTileImage>
@@ -56,5 +59,6 @@ export default function AllSect() {
 
             ))}
         </PortfolioTileWrapper>
+    
     )
 }
