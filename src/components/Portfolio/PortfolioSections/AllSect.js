@@ -15,6 +15,7 @@ export default function AllSect() {
     `
     const PortfolioTileElement = styled.section`
     border-radius: 50px;
+    border: 3px solid black; 
     transition: 0.3s;
     :hover {
         box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.2);
