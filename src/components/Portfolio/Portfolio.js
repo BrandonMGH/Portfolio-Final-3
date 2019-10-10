@@ -23,7 +23,7 @@ export default function Portfolio() {
 
     const PortfolioWrapper = styled.section`
     display: grid; 
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
     grid-gap: 1rem;
     place-items:center; 
     margin-bottom: 10em; 
@@ -37,8 +37,8 @@ export default function Portfolio() {
     justify-content: center; 
     align-items: center; 
     opacity: .7;
-    width: 350px; 
     transition:  transform 2s;
+    width: 350px
    `
     const TileJavascript = styled(PortfolioTile)`
     :hover {
@@ -79,7 +79,7 @@ export default function Portfolio() {
    `
 
     return (
-        <>
+            <span>
             <PortfolioTitle>-PORTFOLIO-</PortfolioTitle>
             <PortfolioWrapper>
                 <TileJavascript onClick={() => setSection(<JavascriptSect/>)}>
@@ -98,6 +98,6 @@ export default function Portfolio() {
             <div>
                 {section}
             </div>
-        </>
+            </span>
     )
 }
