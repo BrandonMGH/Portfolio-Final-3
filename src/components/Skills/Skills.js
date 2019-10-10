@@ -7,6 +7,7 @@ export default function Skills() {
 
     const SkillsTitle = styled.h1`
     text-align:center; 
+    padding: 2.5em 2.5em 2.5em 2.5em
     `
     const SkillsObjContainer = styled.section`
     display: grid;
@@ -15,9 +16,6 @@ export default function Skills() {
     place-items:center; 
  
      
-    `
-    const SkillsObjectElement = styled.section`
-    display: inline; 
     `
 
 
