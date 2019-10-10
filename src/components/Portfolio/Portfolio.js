@@ -32,35 +32,47 @@ export default function Portfolio() {
 
 
     const PortfolioTile = styled.section`
-    border: 3px solid black;  
+    border: 5px solid black;  
     display:flex; 
     justify-content: center; 
     align-items: center; 
     opacity: .7;
-    :hover {
-        opacity: 1;
-        cursor: pointer;
-      }
+    width: 350px; 
+    transition:  transform 2s;
    `
     const TileJavascript = styled(PortfolioTile)`
-    border: 5px solid orange; 
-    color: orange
- 
+    :hover {
+        border: 5px solid orange; 
+        color: orange
+        cursor: pointer; 
+        transform: rotate(360deg);
+      }
    `
     const TileNode = styled(PortfolioTile)`
-   border: 5px solid green; 
-    color: green
+    :hover {
+        border: 5px solid green; 
+        color: green
+        cursor: pointer; 
+        transform: rotate(360deg);
+      }
    `
     const TileReact = styled(PortfolioTile)`
-   border: 5px solid blue; 
-    color: blue
+    :hover {
+        border: 5px solid blue; 
+        color: blue
+        cursor: pointer; 
+        transform: rotate(360deg);
+      }
    `
     const TileAll = styled(PortfolioTile)`
-   border: 5px solid red; 
-    color: red
+    :hover {
+        border: 5px solid red; 
+        color: red
+        cursor: pointer; 
+        transform: rotate(360deg);
+      }
    `
     const TileText = styled.h4`
-    color: ${props => props.color ? props.color : "black"};
     padding: 1em 1em 1em 1em 
   }
    
@@ -71,16 +83,16 @@ export default function Portfolio() {
             <PortfolioTitle>-PORTFOLIO-</PortfolioTitle>
             <PortfolioWrapper>
                 <TileJavascript onClick={() => setSection(<JavascriptSect/>)}>
-                    <TileText color="orange">JAVASCRIPT PROJECTS</TileText>
+                    <TileText>JAVASCRIPT PROJECTS</TileText>
                 </TileJavascript >
                 <TileNode onClick={() => setSection(<NodeSect/>)}>
-                    <TileText color="green">NODE PROJECTS</TileText>
+                    <TileText>NODE PROJECTS</TileText>
                 </TileNode>
                 <TileReact onClick={() => setSection(<ReactSect/>)}>
-                    <TileText color="blue">REACT PROJECTS</TileText>
+                    <TileText>REACT PROJECTS</TileText>
                 </TileReact>
                 <TileAll onClick={() => setSection(<AllSect/>)}>
-                    <TileText color="red"> TOP PROJECTS</TileText>
+                    <TileText> TOP PROJECTS</TileText>
                 </TileAll>
             </PortfolioWrapper>
             <div>
