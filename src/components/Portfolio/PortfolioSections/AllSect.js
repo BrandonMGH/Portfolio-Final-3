@@ -69,8 +69,8 @@ export default function AllSect() {
                         <p><b>Project Type:</b> {properties.projectType}</p>
                         <p><b>My Responsibility:</b>{properties.projectResponsibility}</p>
                         <ButtonWrapper >
-                            <Button>Project Link</Button>
-                            <Button>GitHub Link</Button>
+                        <a href={properties.projectButtonLink}><Button>Project Link</Button></a>
+                        <a href={properties.githubButtonLink}><Button>GitHub Link</Button></a>
                         </ButtonWrapper>
                     </PortfolioTileElement>
                 ))}

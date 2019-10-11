@@ -23,7 +23,7 @@ export default function NodeSect() {
         box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.2);
       }
     padding: 2em 2em 2em 2em;
-
+    display: grid; 
     `
 
     const PortfolioTileImage = styled.section`
@@ -58,7 +58,7 @@ export default function NodeSect() {
     return (
         <LightSpeed left>
             <PortfolioTileWrapper>
-                {sectionObject.All.map(properties => (
+                {sectionObject.Node.map(properties => (
                     <PortfolioTileElement key={properties.keyValue}>
                         <PortfolioTileImage imageInput={properties.projectImg} ></PortfolioTileImage>
                         <h3>{properties.projectTitle}</h3>
@@ -66,8 +66,8 @@ export default function NodeSect() {
                         <p><b>Project Type:</b> {properties.projectType}</p>
                         <p><b>My Responsibility:</b>{properties.projectResponsibility}</p>
                         <ButtonWrapper >
-                            <Button>Project Link</Button>
-                            <Button>GitHub Link</Button>
+                        <a href={properties.projectButtonLink}><Button>Project Link</Button></a>
+                        <a href={properties.githubButtonLink}><Button>GitHub Link</Button></a>
                         </ ButtonWrapper>
                     </PortfolioTileElement>
                 ))}
