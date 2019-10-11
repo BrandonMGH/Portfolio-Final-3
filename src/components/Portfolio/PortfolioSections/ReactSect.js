@@ -36,22 +36,42 @@ export default function ReactSect() {
     border: 3px solid black;
     margin-bottom: 20px; 
     `
+    const ButtonWrapper = styled.section`
+    display: grid;
+    place-items: center; 
+    grid-template-columns: 1fr 1fr;
+    
+    `
+
+    const Button = styled.button`
+    justify-content:space-around;
+    align-content: center; 
+    background-color: white; 
+    border: 2px solid black;
+    color: black; 
+    :hover {
+        border: 2px solid green;
+        color: green; 
+      }
+    `
     return (
         <LightSpeed left>
-        <PortfolioTileWrapper>
-            {sectionObject.All.map(properties => (
-                <PortfolioTileElement key={properties.keyValue}>
-                    <PortfolioTileImage imageInput={properties.projectImg} ></PortfolioTileImage>
-                    <h3>{properties.projectTitle}</h3>
-                    <p>{properties.projectDescription}</p>
-                    <p><b>Project Type:</b> {properties.projectType}</p>
-                    <p><b>My Responsibility:</b>{properties.projectResponsibility}</p>
-                    <button>Project Link</button>
-                    <button>GitHub Link</button>
-                </PortfolioTileElement>
-            ))}
-        </PortfolioTileWrapper>
+            <PortfolioTileWrapper>
+                {sectionObject.All.map(properties => (
+                    <PortfolioTileElement key={properties.keyValue}>
+                        <PortfolioTileImage imageInput={properties.projectImg} ></PortfolioTileImage>
+                        <h3>{properties.projectTitle}</h3>
+                        <p>{properties.projectDescription}</p>
+                        <p><b>Project Type:</b> {properties.projectType}</p>
+                        <p><b>My Responsibility:</b>{properties.projectResponsibility}</p>
+                        <ButtonWrapper >
+                            <Button>Project Link</Button>
+                            <Button>GitHub Link</Button>
+                        </ButtonWrapper>
+                    </PortfolioTileElement>
+                ))}
+            </PortfolioTileWrapper>
         </LightSpeed>
-    
+
     )
 }
