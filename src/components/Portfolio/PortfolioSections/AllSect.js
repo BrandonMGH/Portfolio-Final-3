@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
+import LightSpeed from 'react-reveal/LightSpeed';
 import sectionObject from './SectionObject/SectionObject.js';
-
-//** Images **//
+import codingbackgroundBW from './SectionObject/Images/codingbackgroundBW.png'
 
 export default function AllSect() {
 
@@ -15,7 +15,9 @@ export default function AllSect() {
     `
     const PortfolioTileElement = styled.section`
     border-radius: 50px;
-    border: 3px solid black; 
+    box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
+    background-image: url(${codingbackgroundBW});
+    background-size: cover;
     transition: 0.3s;
     :hover {
         box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.2);
@@ -36,6 +38,7 @@ export default function AllSect() {
     margin-bottom: 20px; 
     `
     return (
+        <LightSpeed left>
         <PortfolioTileWrapper>
             {sectionObject.All.map(properties => (
                 <PortfolioTileElement key={properties.keyValue}>
@@ -49,6 +52,6 @@ export default function AllSect() {
                 </PortfolioTileElement>
             ))}
         </PortfolioTileWrapper>
-    
+        </LightSpeed>       
     )
 }
