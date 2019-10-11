@@ -14,6 +14,7 @@ export default function AllSect() {
     padding-bottom: 50px; 
     `
     const PortfolioTileElement = styled.section`
+    height: 675px; 
     border-radius: 50px;
     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
     background-image: url(${codingbackgroundBW});
@@ -23,7 +24,7 @@ export default function AllSect() {
         box-shadow: 15px 15px 15px 15px rgba(0,0,0,0.2);
       }
     padding: 2em 2em 2em 2em;
-
+    display: grid; 
     `
 
     const PortfolioTileImage = styled.section`
@@ -46,8 +47,9 @@ export default function AllSect() {
     `
 
     const Button = styled.button`
-    justify-content:space-around;
-    align-content: center; 
+    border-radius: 25px;
+    padding: 15px 15px 15px 15px;
+    margin: 15px 15px 15px 15px;  
     background-color: white; 
     border: 2px solid black;
     color: black; 
