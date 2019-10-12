@@ -3,10 +3,6 @@ import linkedinlogo from './Images/linkedinlogo.png'
 import EmailLogofrom from './Images/EmailLogo.png'
 import styled from 'styled-components'
 
-const ImageWrapper = styled.section`
-    height: 350px;
-    Weight: 350px;  
-    `
 
 const ContactMeObject = {
     Arr:[ 
