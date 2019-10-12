@@ -9,7 +9,7 @@ import ContactMeFormBackground from './Images/ContactMeFormBackground.jpg'
 export default function ContactMe() {
 
     const ContactWrapper = styled.section`
-    height: 1000px;
+    height: 1100px;
     background-image: url(${ContactMeFormBackground});
     background-size: cover;
     background-position: center;
@@ -29,6 +29,7 @@ export default function ContactMe() {
     padding-bottom: 50px;  
     display: grid; 
     place-items: center; 
+    color: white; 
     `
     const imgSize = {
         height: '250px',
