@@ -17,9 +17,7 @@ export default function Skills() {
  
      
     `
-    const imgSize = {
-        width: '350px'
-      };
+ 
 
 
     return (
@@ -27,7 +25,7 @@ export default function Skills() {
             <SkillsTitle> -SKILLS- </SkillsTitle>
             <SkillsObjContainer>
             {skillsObject.map(properties => (
-              <img style={imgSize} key={properties.key} src={properties.image} />
+              <img key={properties.key} src={properties.image} />
             ))}
            </SkillsObjContainer>
 
