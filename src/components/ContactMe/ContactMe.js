@@ -33,10 +33,23 @@ export default function ContactMe() {
     place-items: center; 
     color: white; 
     `
+    const LinkText = styled.h3`
+    padding-bottom: 50px;  
+    display: grid; 
+    place-items: center; 
+    color: white; 
+    :hover {
+        
+        color: blue
+        cursor: pointer; 
+      }
+    `
+
     const imgSize = {
         height: '300px',
         width: '300px'
     };
+
 
     return (
 
@@ -46,7 +59,7 @@ export default function ContactMe() {
                 {ContactMeObject.Arr.map(properties => (
                     <a key={properties.key} href={properties.link}>
                         <img style={imgSize} src={properties.image}></img>
-                        <p>{properties.text}</p>
+                        <LinkText>{properties.text}</LinkText>
                     </a>
                 ))}
                 
