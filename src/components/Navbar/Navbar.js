@@ -7,6 +7,7 @@ export default function NavigationBar() {
     const fixed = {
         position: `fixed`,
         width: `100vw`,
+        zIndex: `1`
         
     }
 
