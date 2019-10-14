@@ -25,7 +25,7 @@ export default function Skills() {
             <SkillsTitle> -SKILLS- </SkillsTitle>
             <SkillsObjContainer>
             {skillsObject.map(properties => (
-              <img key={properties.key} src={properties.image} />
+              <img key={properties.key} src={properties.image} alt={properties.title}/>
             ))}
            </SkillsObjContainer>
 

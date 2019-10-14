@@ -1,5 +1,5 @@
 import React from 'react'
-import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from 'react-bootstrap'
+import {Navbar, Nav, Form} from 'react-bootstrap'
 import ScrollIntoView from 'react-scroll-into-view'
 
 export default function NavigationBar() {
