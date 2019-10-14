@@ -1,7 +1,7 @@
 import GitHubMark from './Images/GitHubMark.png'
 import linkedinlogo from './Images/linkedinlogo.png'
 import EmailLogofrom from './Images/EmailLogo.png'
-import styled from 'styled-components'
+
 
 
 const ContactMeObject = {

@@ -58,7 +58,7 @@ export default function ContactMe() {
             <ContactSection>
                 {ContactMeObject.Arr.map(properties => (
                     <a key={properties.key} href={properties.link}>
-                        <img style={imgSize} src={properties.image}></img>
+                        <img style={imgSize} src={properties.image} alt={properties.text}></img>
                         <LinkText>{properties.text}</LinkText>
                     </a>
                 ))}
