@@ -91,6 +91,7 @@ export default function Portfolio() {
    `
     const TileText = styled.h4`
     padding: 1em 1em 1em 1em 
+    text-align: center;  
   }
    
    `
