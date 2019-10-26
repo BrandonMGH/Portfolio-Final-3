@@ -98,10 +98,10 @@ export default function Portfolio() {
 
     return (
             <span>
-            <PortfolioTitle>-PORTFOLIO-</PortfolioTitle>
+            <PortfolioTitle>- PORTFOLIO -</PortfolioTitle>
             <PortfolioWrapper>
                 <TileJavascript onClick={() => setSection(<JavascriptSect/>)}>
-                    <TileText>JAVASCRIPT PROJECTS</TileText>
+                    <TileText>JS PROJECTS</TileText>
                 </TileJavascript >
                 <TileNode onClick={() => setSection(<NodeSect/>)}>
                     <TileText>NODE PROJECTS</TileText>

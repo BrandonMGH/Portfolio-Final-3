@@ -22,7 +22,7 @@ export default function Skills() {
 
     return (
         <div>
-            <SkillsTitle> -SKILLS- </SkillsTitle>
+            <SkillsTitle> - SKILLS - </SkillsTitle>
             <SkillsObjContainer>
             {skillsObject.map(properties => (
               <img key={properties.key} src={properties.image} alt={properties.title}/>

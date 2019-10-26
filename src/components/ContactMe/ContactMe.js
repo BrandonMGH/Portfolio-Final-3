@@ -54,7 +54,7 @@ export default function ContactMe() {
     return (
 
         <ContactWrapper>
-            <TextWrapper>-CONTACT ME- </TextWrapper>
+            <TextWrapper>- CONTACT ME - </TextWrapper>
             <ContactSection>
                 {ContactMeObject.Arr.map(properties => (
                     <a key={properties.key} href={properties.link}>

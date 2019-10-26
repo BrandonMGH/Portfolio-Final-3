@@ -13,6 +13,7 @@ import codespot from './Images/codespot.png'
 import newspapers from './Images/newspapers.jpg'
 import DragonBallZWallpaper from './Images/DragonBallZWallpaper.jpg'
 import photographer from './Images/photographer.jpg'
+import SimonGame from './Images/SimonGame.png'
 
 const sectionObject = {
     Javascript: [
@@ -174,6 +175,16 @@ const sectionObject = {
             projectResponsibility: "Was primarily responsible for setting up the functionality of our MongoDB/node backend and creating our profile manager page",
             projectButtonLink: "https://spark-i-techs.herokuapp.com/",
             githubButtonLink: "https://github.com/avlegend/Project3",
+        },
+        {
+            keyValue: 4,
+            projectTitle: "Simon",
+            projectImg: SimonGame,
+            projectDescription: "An app designed to replicate the popular Simon handheld game",
+            projectType: "Solo Project",
+            projectResponsibility: "Built the project in its entirety",
+            projectButtonLink: "https://compassionate-lamarr-820db9.netlify.com/",
+            githubButtonLink: "https://github.com/BrandonMGH/Simon-App",
         },
     ],
     All: [
