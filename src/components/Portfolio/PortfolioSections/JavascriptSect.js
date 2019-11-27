@@ -13,7 +13,7 @@ export default function JavascriptSect() {
     padding-bottom: 50px; 
     `
     const PortfolioTileElement = styled.section`
-    height: 675px; 
+    height: 100%; 
     border-radius: 50px;
     box-shadow: 5px 5px 5px 5px rgba(0,0,0,0.2);
     background-image: url(${codingbackgroundBW});
