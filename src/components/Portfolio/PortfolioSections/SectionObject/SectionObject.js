@@ -15,6 +15,7 @@ import DragonBallZWallpaper from './Images/DragonBallZWallpaper.jpg'
 import photographer from './Images/photographer.jpg'
 import SimonGame from './Images/SimonGame.png'
 import ReactLogo from './Images/ReactLogo.png'
+import Spacewalker from './Images/Spacewalker.png'
 
 const sectionObject = {
     Javascript: [
@@ -79,6 +80,15 @@ const sectionObject = {
             projectResponsibility: " Worked on creating the questions and assisted in creating the logic that determined which question answers sorted the user into a given house",
             projectButtonLink: "https://santo092.github.io/Project-1/",
             githubButtonLink: "https://github.com/santo092/game-of-thrones-quiz"
+        },{
+            keyValue: 7,
+            projectTitle: "Asteroids, Comets and Stars",
+            projectImg: Spacewalker,
+            projectDescription: "A spaced themed variation on the popular game Rock, Paper, Scissors",
+            projectType: "Solo Project",
+            projectResponsibility: "Built the project in its entirety",
+            projectButtonLink: "https://brandonmgh.github.io/RockPaperScissors/",
+            githubButtonLink: "https://github.com/BrandonMGH/RockPaperScissors"
         }
     ],
     Node: [

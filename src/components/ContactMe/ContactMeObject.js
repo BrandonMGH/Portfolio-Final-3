@@ -9,7 +9,7 @@ const ContactMeObject = {
         {
         key: 1,
         image: linkedinlogo,
-        link: "https://www.linkedin.com/in/brandon-harris-471bb932/",
+        link: "https://www.linkedin.com/in/BrandonMGH/",
         text: "LinkedIn",
     },
     {
