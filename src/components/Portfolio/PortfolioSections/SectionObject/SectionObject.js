@@ -16,6 +16,7 @@ import photographer from './Images/photographer.jpg'
 import SimonGame from './Images/SimonGame.png'
 import ReactLogo from './Images/ReactLogo.png'
 import Spacewalker from './Images/Spacewalker.png'
+import FreeWifiMarkerMap from './Images/FreeWifiMarkerMap.png'
 
 const sectionObject = {
     Javascript: [
@@ -52,13 +53,13 @@ const sectionObject = {
         },
         {
             keyValue: 4,
-            projectTitle: "Giftastic",
-            projectImg: DarthVader,
-            projectDescription: "an app that generates Star Wars themed gifs and renders them dynamically",
+            projectTitle: "Free Wifi Near You",
+            projectImg: FreeWifiMarkerMap,
+            projectDescription: "an app that allows users to quickly find free wifi locations near them with just a series of button clicks",
             projectType: "Solo Project",
             projectResponsibility: " Built the project in its entirety",
-            projectButtonLink: "https://brandonmgh.github.io/GifTastic/",
-            githubButtonLink: "https://github.com/BrandonMGH/GifTastic"
+            projectButtonLink: "https://free-wifi-near-you.herokuapp.com/",
+            githubButtonLink: "https://github.com/BrandonMGH/FreeWifiLocationsSD"
 
         },
         {
