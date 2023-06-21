@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import LightSpeed from 'react-reveal/LightSpeed';
+// import LightSpeed from 'react-reveal/LightSpeed';
 import sectionObject from './SectionObject/SectionObject.js';
 import codingbackgroundBW from './SectionObject/Images/codingbackgroundBW.png'
 
@@ -56,7 +56,7 @@ export default function NodeSect() {
     `
 
     return (
-        <LightSpeed left>
+        // <LightSpeed left>
             <PortfolioTileWrapper>
                 {sectionObject.Node.map(properties => (
                     <PortfolioTileElement key={properties.keyValue}>
@@ -72,6 +72,6 @@ export default function NodeSect() {
                     </PortfolioTileElement>
                 ))}
             </PortfolioTileWrapper>
-        </LightSpeed>
+        // </LightSpeed>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Bounce from 'react-reveal/Bounce';
+// import Bounce from 'react-reveal/Bounce';
 import styled from 'styled-components';
 import codingbackground from "./Images/codingbackground.jpg"
 
@@ -48,9 +48,9 @@ export default function Title() {
     return (
     
     <Wrapper>
-        <Bounce Top><Title>Brandon Harris</Title></Bounce>
+      <Title>Brandon Harris</Title>
         
-        <Bounce Bottom><TitleSub>Full Stack Web Developer</TitleSub></Bounce>
+        <TitleSub>Full Stack Web Developer</TitleSub>
        
       </Wrapper>
       
