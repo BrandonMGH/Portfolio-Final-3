@@ -176,21 +176,11 @@ const sectionObject = {
             projectDescription: "An app that allows users to click on character cards to earn points.  Users win when they click on all the unique character cards without click the same one twice.",
             projectType: "Solo Project",
             projectResponsibility: " Built the project in its entirety",
-            projectButtonLink: "https://clicky-game-reactjs-app.herokuapp.com/",
+            projectButtonLink: "https://clicky-game-ten.vercel.app/",
             githubButtonLink: "https://github.com/BrandonMGH/Clicky-Game",
         },
         {
             keyValue: 3,
-            projectTitle: "SparkItechs",
-            projectImg: photographer,
-            projectDescription: "A personalized website designed to represent an individual's personal portfolio website",
-            projectType: "Group Project",
-            projectResponsibility: " Was primarily responsible for setting up the functionality of our MongoDB/node backend and creating our profile manager page",
-            projectButtonLink: "https://spark-i-techs.herokuapp.com/",
-            githubButtonLink: "https://github.com/avlegend/Project3",
-        },
-        {
-            keyValue: 4,
             projectTitle: "Simon",
             projectImg: SimonGame,
             projectDescription: "An app designed to replicate the popular Simon handheld game",
@@ -200,7 +190,7 @@ const sectionObject = {
             githubButtonLink: "https://github.com/BrandonMGH/Simon-App",
         },
         {
-            keyValue: 5,
+            keyValue: 4,
             projectTitle: "React-Chat",
             projectImg: ReactLogo,
             projectDescription: "A React Chat App created with the use of Socket.io",
@@ -210,7 +200,7 @@ const sectionObject = {
             githubButtonLink: "https://github.com/BrandonMGH/React-Chat_App",
         },
         {
-            keyValue: 6,
+            keyValue: 5,
             projectTitle: "Keystone Hotel",
             projectImg: HotelInteriorOne,
             projectDescription: "A mock hotel website for a fictious hotel called the Keystone Hotel",
@@ -239,21 +229,11 @@ const sectionObject = {
             projectDescription: "An app that allows users to click on character cards to earn points.  Users win when they click on all the unique character cards without click the same one twice.",
             projectType: "Solo Project",
             projectResponsibility: " Built the project in its entirety",
-            projectButtonLink: "https://clicky-game-reactjs-app.herokuapp.com/",
+            projectButtonLink: "https://clicky-game-ten.vercel.app/",
             githubButtonLink: "https://github.com/BrandonMGH/Clicky-Game",
         },
         {
             keyValue: 3,
-            projectTitle: "SparkItechs",
-            projectImg: photographer,
-            projectDescription: "A personalized website designed to represent an individual's personal portfolio website",
-            projectType: "Group Project",
-            projectResponsibility: " Was primarily responsible for setting up the functionality of our MongoDB/node backend and creating our profile manager page",
-            projectButtonLink: "https://spark-i-techs.herokuapp.com/",
-            githubButtonLink: "https://github.com/avlegend/Project3",
-        },
-        {
-            keyValue: 4,
             projectTitle: "CodeSpot",
             projectImg: codespot,
             projectDescription: "A MVC forum website designed for Web Developers who code using the MERN stack",
@@ -264,7 +244,7 @@ const sectionObject = {
 
         },
         {
-            keyValue: 5,
+            keyValue: 4,
             projectTitle: "Friend-Finder",
             projectImg: bestfriends,
             projectDescription: "An app designed to match you up with your ideal friend.",
@@ -274,7 +254,7 @@ const sectionObject = {
             githubButtonLink: "https://github.com/BrandonMGH/Friend-Finder"
         },
         {
-            keyValue: 6,
+            keyValue: 5,
             projectTitle: "Keystone Hotel",
             projectImg: HotelInteriorOne,
             projectDescription: "A mock hotel website for a fictious hotel called the Keystone Hotel",

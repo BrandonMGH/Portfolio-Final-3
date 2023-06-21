@@ -33,7 +33,7 @@ export default function AboutMe() {
             <>
             <AboutMeHeader>- ABOUT ME - </AboutMeHeader>
             <AboutMeInfo src={AstroBearLogoInverse} />
-            <AboutMeParagraph>I am a Full Stack Web Developer with a certificate of completion from the UC San Diego Bootcamp Extension Course.  I specialize in the creation of dynamic websites that emphasize ease of use and timely responsiveness</AboutMeParagraph>
+            <AboutMeParagraph>I am a Full Stack Web and Cloud Developer with a background in developing technical solutions in the consumer privacy space, committed to nurturing long lasting relationships and life-long learning. Proficient in the creation of backend microservices and frontend UI/UX applications for use in generating user-friendly experiences. Effective at working with people from different backgrounds in an Agile environment with the intention of achieving a specific goal or objective</AboutMeParagraph>
             </>
     )
 }
