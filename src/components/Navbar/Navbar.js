@@ -12,7 +12,6 @@ export default function NavigationBar() {
     }
 
     const textColor = {
-
         color: `white`
     }
 

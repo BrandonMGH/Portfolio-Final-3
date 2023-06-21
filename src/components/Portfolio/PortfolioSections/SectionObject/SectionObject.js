@@ -17,6 +17,7 @@ import SimonGame from './Images/SimonGame.png'
 import ReactLogo from './Images/ReactLogo.png'
 import Spacewalker from './Images/Spacewalker.png'
 import FreeWifiMarkerMap from './Images/FreeWifiMarkerMap.png'
+import HotelInteriorOne from './Images/HotelInteriorOne.jpg'
 
 const sectionObject = {
     Javascript: [
@@ -208,6 +209,16 @@ const sectionObject = {
             projectButtonLink: "https://condescending-ride-d3620a.netlify.com/",
             githubButtonLink: "https://github.com/BrandonMGH/React-Chat_App",
         },
+        {
+            keyValue: 6,
+            projectTitle: "Keystone Hotel",
+            projectImg: HotelInteriorOne,
+            projectDescription: "A mock hotel website for a fictious hotel called the Keystone Hotel",
+            projectType: "Solo Project",
+            projectResponsibility: " Built the project in its entirety",
+            projectButtonLink: "https://keystone-hotel.herokuapp.com/",
+            githubButtonLink: "https://github.com/BrandonMGH/Keystone_Hotel-",
+        },
     ],
     All: [
         {
@@ -264,14 +275,14 @@ const sectionObject = {
         },
         {
             keyValue: 6,
-            projectTitle: "Train Scheduler",
-            projectImg: train,
-            projectDescription: "An app that allows the user to enter a train, it's destination and its arrival time into the train arrival schedule",
+            projectTitle: "Keystone Hotel",
+            projectImg: HotelInteriorOne,
+            projectDescription: "A mock hotel website for a fictious hotel called the Keystone Hotel",
             projectType: "Solo Project",
             projectResponsibility: " Built the project in its entirety",
-            projectButtonLink: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
-            githubButtonLink: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
-        }
+            projectButtonLink: "https://keystone-hotel.herokuapp.com/",
+            githubButtonLink: "https://github.com/BrandonMGH/Keystone_Hotel-",
+        },
     ]
 
 
