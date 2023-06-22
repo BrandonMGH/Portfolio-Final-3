@@ -206,7 +206,7 @@ const sectionObject = {
             projectDescription: "A mock hotel website for a fictious hotel called the Keystone Hotel",
             projectType: "Solo Project",
             projectResponsibility: " Built the project in its entirety",
-            projectButtonLink: "https://keystone-hotel.herokuapp.com/",
+            projectButtonLink: "https://keystone-hotel-front-end.vercel.app/",
             githubButtonLink: "https://github.com/BrandonMGH/Keystone_Hotel-",
         },
     ],
@@ -260,7 +260,7 @@ const sectionObject = {
             projectDescription: "A mock hotel website for a fictious hotel called the Keystone Hotel",
             projectType: "Solo Project",
             projectResponsibility: " Built the project in its entirety",
-            projectButtonLink: "https://keystone-hotel.herokuapp.com/",
+            projectButtonLink: "https://keystone-hotel-front-end.vercel.app/",
             githubButtonLink: "https://github.com/BrandonMGH/Keystone_Hotel-",
         },
     ]
